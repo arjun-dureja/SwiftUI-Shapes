@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "Shapes",
-    platforms: [.iOS(.v13), .macOS(.v11), .watchOS(.v6), .tvOS(.v13)],
+    platforms: [.iOS(.v13), .macOS(.v10_16), .watchOS(.v6), .tvOS(.v13)],
     products: [
         .library(
             name: "Shapes",
